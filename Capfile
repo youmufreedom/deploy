@@ -10,6 +10,7 @@ set :rvm_ruby_version, '2.3.1'
 
 require 'capistrano/bundler'
 require 'capistrano/rails'
+require 'capistrano/passenger'
 # require "capistrano/passenger"
 # Load the SCM plugin appropriate to your project:
 #
